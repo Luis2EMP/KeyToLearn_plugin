@@ -1,13 +1,11 @@
 # KeyToLearn
-<!-- Primeiro nome que botei era StudyKeyFlow, que a abreviação SKF dava pra entender ShortcutKeysFlow tbm, era um nome ok, mas quis trocar, troquei quando estava finalizando esse .MD 02:42 18/09/23-->
+<!-- Primeiro nome que botei era StudyKeyFlow, que a abreviação SKF também dava pra entender ShortcutKeysFlo. Era um nome ok, mas quis trocar, troquei quando estava finalizando esse readme 02:42 18/09/23- ->
 Este plugin em lua para o [Xournal++](https://github.com/xournalpp/xournalpp "Xournal++") adiciona diversas de combinações de teclas que são rapidamente acessíveis com a mão esquerda, principalmente sem a necessidade de teclas modificadoras, com apenas o Shift que não é muito usado como atalho no programa normal.
 
-#### Table of contents
+<!-- #### Table of contents [TOC] -->
 
 <!-- [TOCM]  -->
 <!--Comment in .MD https://gist.github.com/jonikarppinen/47dc8c1d7ab7e911f4c9 -->
-
-[TOC]
 
 ## Instalação
 A instalação consiste em colocar os arquivos disponibilizados em suas respectivas pastas.
