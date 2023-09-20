@@ -23,6 +23,8 @@ local yellowColorS      = 0xffd257          -- 255 210 87
 local redColorS         = 0xd14343          -- 209 67 67
 local orangeColorS      = 0xfc9a53          -- 252 154 83
 
+--0x232323 KLT Background Dark Mode
+
 --Fonts 
 local fontname1 = "Times New Roman Regular"
 local fontname2 = "Strawberry Muffins Demo Regular"
