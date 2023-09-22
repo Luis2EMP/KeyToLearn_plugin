@@ -74,4 +74,6 @@ Para fazer o plugin e todas as outras mudanças de template e configurações fo
 - [Keyboard Shortcut Map Maker.](https://archie-adams.github.io/keyboard-shortcut-map-maker/)
 
 ## To-do
+- Ver se tem como fazer outro plugin que inverte a cor de todas as imagens e os traços de preto e off white. Para ter mais flexibilidade quando fizer documentos em Dark Mode e passar pra Light se quiser imprimir. Talvez usando `getStrokes` funcione, mas não sei exatamente o que essa função faz.
+- Fazer funções para adicionar setas e outras desenho de marcação usando `addStrokes`. [Uso de `addStrokes` em plotagem de funções matematicas](https://github.com/xournalpp/xournalpp/pull/3811). Uma alternativa seria adicionado imagens com fundo transparente.
 - ...
