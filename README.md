@@ -1,12 +1,10 @@
 # KeyToLearn
 <!-- Primeiro nome que botei era StudyKeyFlow, que a abreviação SKF também dava pra entender ShortcutKeysFlo. Era um nome ok, mas quis trocar, troquei quando estava finalizando esse readme 02:42 18/09/23. https://pandao.github.io/editor.md/en.html site ajuda a escrever markdown, com preview.-->
 
-Este plugin em lua para o [Xournal++](https://github.com/xournalpp/xournalpp "Xournal++") adiciona diversas de combinações de teclas que são rapidamente acessíveis com a mão esquerda, principalmente sem a necessidade de teclas modificadoras, com apenas o Shift que não é muito usado como atalho no programa normal.
-
-<!-- #### Table of contents [TOC] -->
-
-<!-- [TOCM]  -->
 <!--Comment in .MD https://gist.github.com/jonikarppinen/47dc8c1d7ab7e911f4c9 -->
+<!-- .MD cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet -->
+
+Este plugin em lua para o [Xournal++](https://github.com/xournalpp/xournalpp "Xournal++") adiciona diversas de combinações de teclas que são rapidamente acessíveis com a mão esquerda, principalmente sem a necessidade de teclas modificadoras, com apenas o Shift que não é muito usado como atalho no programa normal.
 
 ## Instalação
 A instalação consiste em colocar os arquivos disponibilizados em suas respectivas pastas.
@@ -17,7 +15,7 @@ Com base no recurso [Xournal++ → Guide → File locations](https://xournalpp.g
 Na pasta `.\share\xournalpp\plugins` adicione a pasta do plugin **SKeysFlow**.
 
 ### Page template
-Na pasta `.\share\xournalpp\ui` adicione o arquivo **pagetemplate.ini** .
+Na pasta `.\share\xournalpp\ui` adicione o arquivo **pagetemplate.ini**. Com o arquivo `.ini` na pasta correta, para usar os templates de **pagina Light ou Dark**, presentes na pasta `LoadPageTemplate`, é preciso abrir o aplicativo, clicar no menu **_Journal → Configure Page Template → Load from file_**, selecionar o template e reabrir o Xournal++. Por fim, para ter trocar entre a cor preta ou branca como principal (Atalho = Tecla 1), é preciso ir no menu **_View → Toolbars_**, e selecionar **KeyToLearn Toolbar Light Mode** ou **Dark Mode**.   
 
 ### Toolbar, paleta de cores e settings
 Na pasta `.\AppData\Local\xournalpp` adicione o arquivo **palette.gpl**, **settings.xml** e **toolbar.ini**.
@@ -39,7 +37,7 @@ Para fazer o plugin e todas as outras mudanças de template e configurações fo
 ](https://github.com/xournalpp/xournalpp/issues/919)
 	Thread com 100 comentarios falando bastante sobre construção de plugins para atalhos
 
-- [ Segmento de código da função `Control::actionPerformed`](https://github.com/xournalpp/xournalpp/blob/c07654780933929a92e9187ad0dc44a80fb04cc7/src/core/control/Control.cpp#L360-L950)
+- [Segmento de código da função `Control::actionPerformed`](https://github.com/xournalpp/xournalpp/blob/c07654780933929a92e9187ad0dc44a80fb04cc7/src/core/control/Control.cpp#L360-L950)
 	Onde é configurado as todas funcões que da pra usar com `app.uiAction`.
 
 - [Lua api para os plugins no xournal](https://github.com/xournalpp/xournalpp/blob/7b6d84956d6bbe8615b2123c64dd0cac80afb81a/src/core/plugin/luapi_application.h)
