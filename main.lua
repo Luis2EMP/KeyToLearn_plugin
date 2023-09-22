@@ -86,6 +86,7 @@ end
 
 function clickPen()
     app.uiAction({["action"] = "ACTION_TOOL_PEN"})
+    app.uiAction({["action"] = "ACTION_SHAPE_RECOGNIZER"})
 end
 
 function clickEraser()
@@ -140,10 +141,8 @@ function linestyle()
     app.uiAction({["action"] = "ACTION_TOOL_LINE_STYLE_" .. linestyleList[currentLinestyle]})
 end
 
-local currentFill = false
 function clickFill()
-    currentFill = not currentFill
-    app.uiAction({["action"]="ACTION_TOOL_FILL", ["enabled"] = currentFill})
+    app.uiAction({["action"]="ACTION_TOOL_FILL", ["enabled"] = true})
 end
 
 local eraserList = {"STANDARD", "DELETE_STROKE"} --I don't use WHITEOUT normally
@@ -161,16 +160,12 @@ end
 local drawingTypeList = {"TOOL_DRAW_RECT", "TOOL_DRAW_ELLIPSE", "TOOL_DRAW_SPLINE"}     -- Don't include coordinate system and default tool
 local currentDrawingType = 1
 
-local currentShapeRecognizer = true
 function clickShapeRecognizer()
-    currentShapeRecognizer = not currentShapeRecognizer
-    app.uiAction({["action"] = "ACTION_SHAPE_RECOGNIZER", ["enabled"] = currentShapeRecognizer})
+    app.uiAction({["action"] = "ACTION_SHAPE_RECOGNIZER", ["enabled"] = true})
 end
 
-local currentRuler = false
 function clickRuler()
-    currentRuler = not currentRuler
-    app.uiAction({["action"] = "ACTION_RULER", ["enabled"] = currentRuler})
+    app.uiAction({["action"] = "ACTION_RULER", ["enabled"] = true})
 end
 
 --[[ function drawingType()
@@ -179,22 +174,16 @@ end
     print("ACTION_" .. drawingTypeList[currentDrawingType])
 end ]]
 
-local currentRectangle = false
 function clickRectangle()
-    currentRectangle = not currentRectangle
-    app.uiAction({["action"] = "ACTION_TOOL_DRAW_RECT", ["enabled"] = currentRectangle})
+    app.uiAction({["action"] = "ACTION_TOOL_DRAW_RECT", ["enabled"] = true})
 end
 
-local currentEllipse = false
 function clickEllipse()
-    currentEllipse = not currentEllipse
-    app.uiAction({["action"] = "ACTION_TOOL_DRAW_ELLIPSE", ["enabled"] = currentEllipse})
+    app.uiAction({["action"] = "ACTION_TOOL_DRAW_ELLIPSE", ["enabled"] = true})
 end
 
-local currentSpline = false
 function clickSpline()
-    currentSpline = not currentSpline
-    app.uiAction({["action"] = "ACTION_TOOL_DRAW_SPLINE", ["enabled"] = currentSpline})
+    app.uiAction({["action"] = "ACTION_TOOL_DRAW_SPLINE", ["enabled"] = true})
 end
 
 ---------------------------------------

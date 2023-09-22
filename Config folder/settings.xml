@@ -5,7 +5,7 @@
   <property name="minimumPressure" value="0.5"/>
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
-  <property name="selectedToolbar" value="SKeyFlow Toolbar Copy"/>
+  <property name="selectedToolbar" value="KeyToLearn Toolbar"/>
   <property name="lastSavePath" value="C:\Users\extre\OneDrive - Inst. Fed. de Educ, Ciência e Tec. Fluminense\Plugin xournal desenvolvimento\ShortcutKeysLuis 2_0 desenvolvimento"/>
   <property name="lastOpenPath" value="C:\Users\extre\OneDrive - Inst. Fed. de Educ, Ciência e Tec. Fluminense\Sync com Google Drive 05-03-23\PDFs IFF\6º Período\Eletrônica II - 6º Período"/>
   <property name="lastImagePath" value=""/>
@@ -75,7 +75,7 @@
   <property name="snapGrid" value="true"/>
   <property name="snapGridTolerance" value="0.5"/>
   <property name="snapGridSize" value="10"/>
-  <property name="strokeRecognizerMinSize" value="10"/>
+  <property name="strokeRecognizerMinSize" value="5"/>
   <property name="touchDrawing" value="false"/>
   <property name="gtkTouchInertialScrolling" value="true"/>
   <property name="pressureGuessing" value="false"/>
