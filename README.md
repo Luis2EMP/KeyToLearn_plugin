@@ -12,7 +12,7 @@ A instalação consiste em colocar os arquivos disponibilizados em suas respecti
 Com base no recurso [Xournal++ → Guide → File locations](https://xournalpp.github.io/guide/file-locations/ "Xournal++ → Guide → File locations"), será preciso acessar as pastas de [Shared resources](https://xournalpp.github.io/guide/file-locations/#shared-resources-folder "Shared resources") e de [Config](https://xournalpp.github.io/guide/file-locations/#config-folder "Config").
 
 ### Plugin
-Na pasta `.\share\xournalpp\plugins` adicione a pasta do plugin **SKeysFlow**.
+Na pasta `.\share\xournalpp\plugins` adicione a pasta do plugin **KeyToLearn**.
 
 ### Page template
 Na pasta `.\share\xournalpp\ui` adicione o arquivo **pagetemplate.ini**. Com o arquivo `.ini` na pasta correta, para usar os templates de **pagina Light ou Dark**, presentes na pasta `LoadPageTemplate`, é preciso abrir o aplicativo, clicar no menu **_Journal → Configure Page Template → Load from file_**, selecionar o template e reabrir o Xournal++. Por fim, para ter trocar entre a cor preta ou branca como principal (Atalho = Tecla 1), é preciso ir no menu **_View → Toolbars_**, e selecionar **KeyToLearn Toolbar Light Mode** ou **Dark Mode**.   
